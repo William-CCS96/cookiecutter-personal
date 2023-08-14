@@ -10,6 +10,10 @@ dependencies:
   - jupyter
   - jupyterlab
   - pathlib
+  - matplotlib==3.7.1
+  - pandas==1.5.3
+  - numpy==1.23.5
+  - seaborn==0.12.2
   {% endif -%}
   - pip
   {% if cookiecutter.project_packages == "All" -%}
